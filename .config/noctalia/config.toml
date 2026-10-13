@@ -271,23 +271,6 @@ background_opacity = 0.99999997764825821
     [osd.kinds]
     media = false
 
-[plugin_settings."noctalia/umbriel-companion"]
-panel_placement = "floating"
-
-[plugin_settings."prponkshe/umbriel-displays"]
-panel_placement = "floating"
-
-[plugin_settings."raycursive/niri-displays"]
-panel_placement = "floating"
-
-[plugin_settings."yuuto/arch-updater"]
-auto_check_hours = 168
-notify_on_updates = false
-panel_placement = "floating"
-
-[plugins]
-enabled = [ "yuuto/arch-updater", "noctalia/umbriel-companion", "prponkshe/umbriel-displays" ]
-
 [shell]
 avatar_path = ""
 corner_radius_scale = 0.0
@@ -351,7 +334,7 @@ source = "wallpaper"
 wallpaper_scheme = "m3-content"
 
     [theme.templates]
-    builtin_ids = [ "btop", "cava", "foot", "gtk3", "gtk4", "helix", "kcolorscheme", "kitty", "niri", "umbriel" ]
+    builtin_ids = [ "btop", "cava", "foot", "gtk3", "gtk4", "helix", "kcolorscheme", "kitty", "umbriel" ]
     community_ids = [
         "spicetify",
         "pywalfox",
@@ -387,12 +370,6 @@ enabled = false
 
 [widget.active_window]
 display = "text_only"
-
-[widget.bar]
-type = "prponkshe/umbriel-displays:bar"
-
-[widget.bar_3]
-type = "noctalia/umbriel-companion:bar"
 
 [widget.brightness]
 show_label = false

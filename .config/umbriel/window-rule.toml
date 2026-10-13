@@ -1,0 +1,19 @@
+[[window_rule]]
+match.app_id = "^waterfox$"
+match.title = "title"
+default_floating = true
+
+[[window_rule]]
+match.app_id = "^waterfox$"
+match.title = "Picture-in-Picture"
+default_floating = true
+
+[[window_rule]]
+match.app_id = "dolphin"
+match.title = "Extract"
+default_floating = true
+
+[[window_rule]]
+match.app_id = "ark"
+match.title = "Extract"
+default_floating = true

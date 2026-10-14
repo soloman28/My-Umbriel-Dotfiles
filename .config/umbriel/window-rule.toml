@@ -1,6 +1,6 @@
 [[window_rule]]
 match.app_id = "^waterfox$"
-match.title = "title"
+match.title = "About Waterfox"
 default_floating = true
 
 [[window_rule]]
